@@ -44,6 +44,15 @@ nav a:hover {
   color: #4285f4;
   text-decoration: underline;
 }
+.link-a:hover {
+  color: #ea4335;
+}
+.link-b:hover {
+  color: #fbbc05;
+}
+.link-c:hover {
+  color: #34a853;
+}
 .active:hover {
   color: #4285f4;
 }
