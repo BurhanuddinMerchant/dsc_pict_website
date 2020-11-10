@@ -10,12 +10,14 @@
     <link href="./css/style.css" rel="stylesheet" />
     <title>DSC PICT</title>
   </head>
-  <body>
+  <body onresize="handleResize()">
     <div class="hero">
       <header>
         <h1>DSC PICT</h1>
-        <nav>
-          <ul>
+
+        <nav id="nav">
+          <button id="show-nav" onclick="onClickShow()">=</button>
+          <ul id="nav-ul">
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#" class="link-a">Teams</a></li>
             <li><a href="#" class="link-b">Events</a></li>
@@ -32,5 +34,6 @@
       <h3>DSC PICT Official</h3>
       <p>Since 2020</p>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
